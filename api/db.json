@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "fullName": "Dich",
+      "birthDate": "20-12-1992",
+      "progress": "3",
+      "id": 1
+    },
+    {
+      "fullName": "Mirzoev Khushang",
+      "birthDate": "20-12-1992",
+      "progress": "3",
+      "id": 2
+    },
+    {
+      "fullName": "Khudkov Nikolay",
+      "birthDate": "05-01-1993",
+      "progress": "2",
+      "id": 3
+    }
+  ]
+}
