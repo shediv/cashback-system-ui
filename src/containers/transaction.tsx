@@ -32,8 +32,8 @@ const TransactionComponent: React.FC<TransactionProps> = props => {
                 columns={[
                     { title: 'id', field: '_id', editable: 'never' },
                     { title: 'Date', field: 'date' },
-                    { title: 'Transaction Id', field: 'id' },
-                    { title: 'Customer Id', field: 'customerId' }
+                    { title: 'Transaction Id', field: 'id', type: 'numeric' },
+                    { title: 'Customer Id', field: 'customerId', type: 'numeric' }
                 ]}
                 data={transactions}
                 editable={{
