@@ -15,7 +15,7 @@ export interface RulesetProps {
 };
 
 
-const Ruleset: React.FC<RulesetProps> = props => {
+const RulesetComponent: React.FC<RulesetProps> = props => {
     const { rulesets, fetchRulesets, addRuleset, editRuleset, deleteRuleset } = props;
     
     useEffect(() => {
@@ -64,4 +64,4 @@ const mapStateToProps = (state: RootState) => {
 export default connect(
     mapStateToProps,
     { fetchRulesets, addRuleset, deleteRuleset }
-)(Ruleset);
+)(RulesetComponent);
