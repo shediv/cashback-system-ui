@@ -4,11 +4,12 @@ import { Link } from 'react-router-dom';
 const HeaderComponent = () => {
   return (
     <div>
-      <h5>NAVBAR</h5>
-      <ul>
-        <li><Link to="/Home">Home</Link></li>
-        <li><Link to="/About">About</Link></li>
-     	</ul>
+        <h5>Cashback System</h5>
+        <nav>            
+            <Link to="/">Home</Link>
+            <Link to="/transaction">Transaction</Link>
+            <Link to="/ruleset">Ruleset</Link>
+        </nav>
       <hr />
     </div>
   );
