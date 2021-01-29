@@ -10,6 +10,8 @@ export interface Ruleset {
     endDate: string;
     cashback: number;
     redemptionLimit: number;
+    minTransactions: number;
+    budget: number;
 }
 
 export interface Rulesets {

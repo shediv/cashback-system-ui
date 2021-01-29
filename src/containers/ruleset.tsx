@@ -36,6 +36,8 @@ const RulesetComponent: React.FC<RulesetProps> = props => {
                     { title: 'End Date', field: 'endDate' },
                     { title: 'Cashback', field: 'cashback', type: 'numeric' },
                     { title: 'RedemptionLimit', field: 'redemptionLimit', type: 'numeric' },
+                    { title: 'Min Transactions', field: 'minTransactions', type: 'numeric' },
+                    { title: 'Budget', field: 'budget', type: 'numeric' },
                 ]}
                 data={rulesets}
                 editable={{
